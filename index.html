@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <div class="header">
+          <div class="info">
+            <div class="info-details">
+              <p class="date">Tuesday 11:00 PM
+              <p class="active-tasks">You have <span class="active">0</span> Active Tasks</p>
+              </p>
+            </div>
+
+            <form class="form-control add">
+              <input class="input" name="add" type="text" placeholder="Enter tasks...">
+              <span class="error">please fill the input</span>
+              <button class="btn">
+                Add Task
+              </button>
+            </form>
+            
+          </div>
+          <div class="nav">
+            <li><a class="incomplete-nav">Incomplete Tasks</a></li>
+            <li><a class="complete-nav">Complete Tasks</a></li>
+          </div>
+        </div>
+        <div class="tasks">
+          <p class="text-info">You currently have <span class="blue">0</span> tasks. Add a task to get started!</p>
+        </div>
+        <div class="complete-tasks">
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
